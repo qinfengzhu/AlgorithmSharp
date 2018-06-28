@@ -3,8 +3,48 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Description", "Description", "{DFB99C4A-6ED7-4B3F-B166-CBC9F244D438}"
+	ProjectSection(SolutionItems) = preProject
+		拓扑排序.md = 拓扑排序.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{054AE01D-B6A3-40C2-865A-20571F919B32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithm", "Algorithm", "{BEA1D313-72F3-4A66-AE76-A059F3B42411}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datastructure", "Datastructure", "{16A627CE-777E-484C-A349-2B60D77F9AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopologicalSorting", "TopologicalSorting\TopologicalSorting.csproj", "{52FEEBDF-361F-41D8-8825-D59E559BCF56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopologicalSorting.Test", "TopologicalSorting.Test\TopologicalSorting.Test.csproj", "{0023EAA4-0E83-4E2D-8DAF-991A88984263}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{48E5B1C8-3FBE-4DCD-BE66-CD58E822CC4F}"
+	ProjectSection(SolutionItems) = preProject
+		Topological-01.png = Topological-01.png
+		Topological-02.png = Topological-02.png
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52FEEBDF-361F-41D8-8825-D59E559BCF56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FEEBDF-361F-41D8-8825-D59E559BCF56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FEEBDF-361F-41D8-8825-D59E559BCF56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FEEBDF-361F-41D8-8825-D59E559BCF56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0023EAA4-0E83-4E2D-8DAF-991A88984263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0023EAA4-0E83-4E2D-8DAF-991A88984263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0023EAA4-0E83-4E2D-8DAF-991A88984263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0023EAA4-0E83-4E2D-8DAF-991A88984263}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{52FEEBDF-361F-41D8-8825-D59E559BCF56} = {BEA1D313-72F3-4A66-AE76-A059F3B42411}
+		{0023EAA4-0E83-4E2D-8DAF-991A88984263} = {054AE01D-B6A3-40C2-865A-20571F919B32}
+		{48E5B1C8-3FBE-4DCD-BE66-CD58E822CC4F} = {DFB99C4A-6ED7-4B3F-B166-CBC9F244D438}
 	EndGlobalSection
 EndGlobal
